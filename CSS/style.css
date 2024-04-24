@@ -1,0 +1,22 @@
+/* .box{
+    width: 300px;
+    min-height: 100px;
+    box-shadow: 20%;
+    box-shadow: color(srgb red green blue);
+} */
+h1{
+    background-color: lightgoldenrodyellow;
+    color: green;
+    text-align: center;
+    -webkit-text-stroke-color: blue;
+
+}
+h2{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+h3{
+    background-color: lightpink;
+    color: darkviolet;
+}

@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 60%;
+    min-height: 100px;
+     border: 1px solid black; 
+    margin: auto;
+}
+.main-header
+{
+    width: 100%;
+    height: 60px;
+}
+.header
+{
+   width: 35%;
+   height: 60px;
+   background-color: lightgrey;
+   float: left;
+   padding: 5px;
+   margin-left: 15px;
+}
+.header h1{
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+.header h1:hover
+{
+    background-color: red;
+    color: black;
+}
+.menu
+{
+    width: 35%;
+    height: 60px;
+    background-color: aquamarine;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    line-height: 25px;
+}
+.menu a
+{
+      color: black;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 17px;
+      font-family: Bold;
+      text-align: center;
+      font-style: italic;
+      
+}
+.menu a:hover
+{
+    background-color:red;
+    color: black;
+}
+.click
+{
+    width: 25%;
+    height: 60px;
+    background-color: lightpink;
+    float: left;
+    padding: 10px;
+}
+.click img
+{
+    width: 40px;
+    height: 40px;
+
+}
+.click img:hover{
+    background-color:black;
+    color: white;
+}
+.slider
+{
+    width: 100%;
+    height: 500px;
+     margin-top: 10px;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.con
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+.con .box1
+{
+    width:30%;
+    height: 400px;
+    background-color: lightgrey;
+    float: left;
+    margin-left:30px;
+}
+.con .box2
+{
+    width:30%;
+    height: 400px;
+    background-color: lightskyblue;
+    float: left;
+    
+}
+.con .box3
+{
+    width:30%;
+    height: 400px;
+    background-color: lightpink;
+    float: left;
+}
+.con .box2:nth-child(2)
+{
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.con .box1 img{
+    width: 100%;
+    height: 100%;
+}
+.con .box2 img{
+    width: 100%;
+    height: 100%;
+}
+.con .box3 img{
+    width: 100%;
+    height: 100%;
+}
+.footer
+{
+    width:100% ;
+    height: 200px;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.footer:hover
+{
+       
+    color: blue;
+}

@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+}
+.wrapper
+{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.main-header-div
+{
+    width: 100%;
+    height: 100Px;
+    
+}
+.main-header-div .logo
+{
+      width: 45%;
+      height: 100px;
+      background-color:black;
+      color: white;
+      float: left;
+}
+.logo h1{
+    padding: 25px;
+    font-weight: bold;
+}
+.logo h1:hover
+{
+    /* background-color:blue; */
+    color:purple;
+}
+.main-header-div .menu
+{
+      width: 50%;
+      height: 100px;
+      background-color: black;
+      /* color: white; */
+      float: right;
+      padding: 30px;
+}
+.menu a{
+    
+    text-decoration: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 50px;
+}
+.menu a:hover
+{
+    background-color: purple;
+    color:black;
+}
+.slider
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+}
+.box
+{
+    width: 100%;
+    height: 500px;
+    /* border: 3px solid red; */
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.cards
+{
+    width: 32%;
+    min-height: 500px;
+    /* border:  1px solid black; */
+    float: left;
+}
+.imgs
+{
+    width: 100%;
+    height: 250px;
+
+}
+.imgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.cards h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards p{
+    text-align: justify;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button 
+{
+    width: 100px;
+    height: 30px;
+    background-color:blue;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 40px;
+    
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
+}
+.social
+{
+    width: 100%;
+    height: 70px;
+    background-color:black;
+    margin-top: 10px;
+    border-radius: 30%;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    float: left;
+     margin-top: 20px;
+     margin-left: 35px;
+    font-size: 2em;
+}
+.social img:hover
+{
+    background-color: white;
+}
+.cards:nth-child(2)
+{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.footer
+{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background-color:black;
+}
+.footer h4{
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+.footer h4:hover
+{
+    background-color: blue;
+    color: white;
+}

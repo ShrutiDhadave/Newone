@@ -7,66 +7,329 @@
 .box
 {
     width: 60%;
-    height: 500px;
+    min-height: 500px;
     border: 1px solid black;
     margin: auto;
 }
-.header
+.con
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: lightgray; */
+    background-image: url(../pictures/security\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    filter: saturate(20%);
+}
+.main-header
 {
     width: 100%;
     height: 100px;
-    border: 1px solid red;
-    background-color: black;
 }
- .head
+.header
 {
     width: 20%;
     height: 100px;
-    /* background-color: lightgray; */
     float: left;
+    margin-left: 15px;
+}
+.header h1
+{
+    font-weight: bold;
     color: white;
+ 
 }
 .menu
 {
-    width: 40%;
-    height: 100px;
-    /* background-color: lightpink; */
-    float: left;
+   width: 50%;
+   height: 100px;
+   float: left;
+   margin-left: 40px;
+   margin-top: 10px;
 }
 .menu a
 {
     text-decoration: none;
+    padding: 10px;
+    color: white;
+  
+
+}
+ .header .contact
+{
+   width: 20%;
+   height: 100px;
+   margin-left: 20px;
+   float: right;
+   
+}
+.contact h6
+{
     color: white;
 }
-.contact
+.contact h4
 {
-    width: 30%;
-    height: 100px;
-    margin-left: 60px;
-    /* background-color:lightsteelblue; */
-    float: left;
     color: white;
-}   
-.con
+}
+.con .sidetext
+{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.con .sidetext h1
+{
+    margin-top: 30px;
+    margin-left: 55px;
+    font-size: 60px;
+    color: white;
+}
+.sidetext p
+{
+   margin-top: 5px;
+   margin-left: 55px;
+   padding-left: 5px;
+   padding-right: 5px;
+   text-align: justify;
+   color: white;
+}
+.sidetext h6
+{
+    margin-left: 55px;
+    color: white;
+    margin-top: 20px;
+}
+.sidetext h3
+{
+    margin-left: 55px;
+    color: white;
+}
+.mid-con
+{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+ .mid-con .left-con
+{
+    width: 50%;
+    height: 400px;
+    background-color:white;
+    float: left;
+    color: black;
+    padding-left: 15px;
+}
+.left-con h1{
+    color: black;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.left-con p{
+    padding-right: 5px;
+    margin-top: 30px;
+}
+.left-con .button
+{
+    margin-top: 70px;
+    color: red;
+}
+.button:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+ .mid-con .right-con
+{
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    float: right;
+}
+.right-con h6
+{
+    margin-top: 30px;
+    color: white;
+    margin-left: 30px;
+}
+.right-con .cards
+{
+    width: 100%;
+    margin-top: 50px;
+}
+.cards .card1
+{
+    color: white;
+    float: left;
+    padding-left: 20px;    
+}
+.cards .card1 h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 10px;
+}
+.cards .card1 h5
+{
+    padding-left: 10px;
+}
+.cards .card2
+{
+    color: white;
+    float: left;
+    padding-left: 90px;
+    padding-right: 5px;
+    
+}
+.cards .card2 h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 50px;
+}
+.cards .card2 h5{
+    padding-left: 40px;
+}
+.cards .card3
+{
+    color: white;
+    float: left;
+    padding-left: 20px;
+    margin-top: 70px;
+    
+}
+.cards .card3 h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+.cards .card4
+{
+    color: white;
+    float: right;
+    margin-top: 70px;
+    padding-right: 20px;
+}
+.cards .card4 h1
+{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.con3
+{
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    background-color: white;
+}
+.con3 h1
+{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.con3 h5
+{
+    color: black;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+.con3 .main-con
 {
     width: 100%;
     height: 500px;
-    background-color: lightgrey;
+}
+.main-con .sub-div
+{
+    width:30%;
+    height: 250px;
     
 }
-.con h1
+.sub-div img
 {
-    float: right;
-    padding-top: 200px;
-    padding-right: 50px;
+    width: 30%;
+    height: 200px;
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
-.con p
+.sub-div img:nth-child(2)
 {
-    float: right;
+   margin-right: 20px;
+   margin-right: 20px;
+}
+.sub-div img:nth-child(1)
+{
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+.sub-div h4
+{
+    color: black;
+    
+}
+.con3 button
+{
+    color: red;
+    background-color: white;
+    border-color: red;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.con4
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(../pictures/black\ nature.jpeg);
+    background-size: 100%;
+    background-size: cover;
+    filter: saturate(10%);
+    color: white;
+}
+.con4 h6
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.con4 h1
+{
+    text-align: center;
     margin-top: 20px;
 }
-.con h3
+.con4 main-box
 {
-     text-align-last: right;
-    
+    width: 100%;
+    height: 450px;
 }
+.main-box .sub-box
+{
+    width: 30%;
+     height: 200px;
+     margin-top: 30px;
+     float: left;
+     margin-left: 25px;
+     padding-left: 60px;
+     margin-bottom: 0;
+}
+.sub-box h3
+{
+    color: white;
+}
+.sub-box h6
+{
+    margin-top: 5px;
+    padding-right: 80px;
+}
+
+
+
+ 

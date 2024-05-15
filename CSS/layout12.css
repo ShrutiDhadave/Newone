@@ -1,0 +1,314 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 60%;
+      min-height: 1000px;
+    border: 1px solid black; 
+    margin: auto;
+}
+.con1
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(../pictures/fr.jpeg);
+    background-size: 100%;
+    background-size: cover;
+    filter: saturate(300%);
+}
+.con1 h1
+{
+   text-align: center;
+   color: green;
+   padding-top: 70px;
+}
+/* .con1 h6
+{
+    color: green;
+    text-align: right;
+       
+} */
+.con2
+{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    margin-top: 30px;
+}
+.con2 h1
+{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.con h4
+{
+    text-align: center;
+}
+input[type=button]
+{
+    margin: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 20%;
+    font-size: small;
+}
+.con3
+{
+    width: 100%;
+    height: 350px;
+    /* background-color: white;  */
+    margin-top: 30px;
+}
+.con3 h1
+{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+.con3
+{
+    width: 100%;
+    height: 350px;
+    background-color:white;
+    
+    margin-top: 30px;
+}
+.con3 h1
+{
+    padding-bottom: 30px;
+    /* margin-top: 10px; */
+}
+.con3 .main-con
+{
+    width: 100%;
+    height: 300px;
+
+}
+.main-con .sub-div
+{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 10px;
+}
+.sub-div:nth-child(2)
+{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.sub-div:nth-child(1)
+{
+    padding-left: 30px;
+}
+
+.sub-div img
+{
+    width: 100%;
+    height: 100%;
+}
+.sub-div h2
+{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 10px;
+}
+.sub-div h5
+{
+    text-align: center;
+    color: green;
+    padding-bottom: 20px;
+}
+.con4
+{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    
+
+}
+.con4 h1
+{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+/* .con4 .sub-box1 img
+{
+    height: 250px;
+    width: 45%;
+    float: left;
+    padding-left: 50px;
+}
+.con4 .sub-box2 img
+{
+    height: 250px;
+    width: 45%;
+    float: right;
+    padding-right: 50px;
+} */
+.sub-box img
+{
+    height: 250px;
+    width: 85%;
+    margin-left: 10px;
+}
+.con4 .sub-box
+{
+    height: 250px;
+    width: 45%;
+    float: right;
+}
+.sub-box h2
+{
+   text-align: center;
+   color: green;
+   font-size: 20px;
+   padding-right: 50px;
+   margin-top: 20px;
+   padding-bottom: 10px;
+}
+.sub-box h5
+{
+    color: black;
+    text-align: center;
+    padding-right: 10px;
+}
+/* button
+{
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+   
+} */
+input[type=submit]
+{
+    margin-left: 45%;
+}
+button
+{
+    margin-left:20%;
+    margin-top: 150px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: ;
+    
+}
+input[type=submit]
+{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.con5
+{
+    width: 100%;
+    height: 250px;
+
+}
+.con5 .main-box
+{
+    width: 100%;
+    height: 300px;
+}
+.main-box .sub-box
+{
+    float: left;
+    /* margin-right: 5px; */
+
+}
+.sub-box:nth-child(2)
+{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.sub-box:nth-child(1)
+{
+    padding-left: 10px;
+}
+.sub-box h3
+{
+    margin-left: 90px;
+    margin-top: 40px;
+    color: green;
+    
+}
+.sub-box h4{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.con6
+{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+.con6 .left-con
+{
+    width: 45%;
+    height: 300px;
+    float: left;
+}
+.left-con h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.left-con h6
+{
+  color:white;  
+  margin-left: 20px;
+  margin-top: 20px; 
+}
+.con6 .right-con
+{
+    width: 45%;
+    height: 300px;
+    float: right;
+}
+.right-con h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.right-con img
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.right-con h5
+{
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+input[type=button]
+{
+    border-radius: 0;
+    width:160px;
+    height: 40px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    
+}
+

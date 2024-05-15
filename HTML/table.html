@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td
+        {
+           border: 1px solid #000;
+           border-collapse: collapse;
+        }
+        table
+        {
+            margin: 140px auto;
+            width: 500px;
+            /* height: 300px; */
+        }
+        th
+        {
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            
+        }
+        tr
+        {
+            transition: 0.5s ease-in;
+        }
+        tr:hover
+        {
+            background-color: red;
+            color:black;
+        }
+        tr:nth-child(Even)
+        {
+            background-color: lightgray;
+            color:black;
+        }
+        tr:nth-child(1)
+        {
+            background-color: royalblue;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <th>1</th>
+            <th>Shruti Dhadave</th>
+            <th>Pune</th>
+            <th>90</th>
+            <th>A</th>
+        </tr>
+
+        <tr>
+            <th>2</th>
+            <th>Manisha Dhadave</th>
+            <th>Mumbai</th>
+            <th>80</th>
+            <th>B</th>
+        </tr>
+
+        <tr>
+            <th>3</th>
+            <th>Kartiki Dhadave</th>
+            <th>Nagpur</th>
+            <th>95</th>
+            <th>A</th>
+        </tr>
+
+        <tr>
+            <th>4</th>
+            <th>Ayush Dhadave</th>
+            <th>Latur</th>
+            <th>70</th>
+            <th>B</th>
+        </tr>
+
+        <tr>
+            <th>5</th>
+            <th>Anil Dhadave</th>
+            <th>Nashik</th>
+            <th>50</th>
+            <th>C</th>
+        </tr>
+    </table>
+</body>
+</html>
